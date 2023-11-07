@@ -9,15 +9,15 @@
   },
   "packageFolders": {
     "C:\\Users\\jj\\.nuget\\packages\\": {}
-  }, 
+  },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jj\\Desktop\\Amir-Jelodarian-Dotnet\\Amir-Jelodarian-Dotnet.csproj",
+      "projectUniqueName": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\Amir-Jelodarian-Dotnet.csproj",
       "projectName": "Amir-Jelodarian-Dotnet",
-      "projectPath": "C:\\Users\\jj\\Desktop\\Amir-Jelodarian-Dotnet\\Amir-Jelodarian-Dotnet.csproj",
+      "projectPath": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\Amir-Jelodarian-Dotnet.csproj",
       "packagesPath": "C:\\Users\\jj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jj\\Desktop\\Amir-Jelodarian-Dotnet\\obj\\",
+      "outputPath": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jj\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

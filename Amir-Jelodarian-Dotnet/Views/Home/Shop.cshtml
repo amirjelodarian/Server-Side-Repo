@@ -3,3 +3,25 @@
 }
 <h1>فروشگاه</h1>
 <p>محصولات</p> 
+<table class="table table-responsive">
+            <tr>
+                <th>Id</th>
+                <th>Image</th>
+                <th>Title</th>
+                <th>Price</th>
+                <th>Count</th>
+                <th>Desc</th>
+            </tr>
+            @{
+                foreach(var item in Model){
+                    <tr>
+                        <td>@item.Id</td>
+                        <td><img src="@item.picPath" /></td>
+                        <td>@item.title</td>
+                        <td>@item.price</td>
+                        <td>@item.count</td>
+                        <td>@item.description</td>
+                    </tr>
+                }
+            }
+</table>

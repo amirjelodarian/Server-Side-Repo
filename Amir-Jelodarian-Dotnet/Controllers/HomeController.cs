@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Amir_Jelodarian_Dotnet.Models;
 
+
 namespace Amir_Jelodarian_Dotnet.Controllers;
 
 public class HomeController : Controller
@@ -21,91 +22,92 @@ public class HomeController : Controller
     // start second sesson
   public IActionResult ContactUs()
     {
-        //Loops
-        for (var i = 0; i < 10; i++)
-        {
-            
+        List<Users> ListUsers = new List<Users>();
+
+        Users users1 = new Users();
+        users1.Id = 1;
+        users1.Name = "amir";
+        users1.Family = "jelodarian";
+        users1.NameFather = "ali";
+        users1.Password = "amir0000";
+        users1.Gender = true;
+        users1.Birthday = DateTime.Parse("2002/01/01");
+        users1.Active = true;
+        users1.Weight = 50.2;
+        ListUsers.Add(users1);
+
+        Users users2 = new Users();
+        users2.Id = 2;
+        users2.Name = "amir2";
+        users2.Family = "jelodarian2";
+        users2.NameFather = "ali2";
+        users2.Password = "amir00002";
+        users2.Gender = true;
+        users2.Birthday = DateTime.Parse("2002/01/01");
+        users2.Active = false;
+        users2.Weight = 120.4;
+        ListUsers.Add(users2);
+
+        Users users3 = new Users();
+        users3.Id = 3;
+        users3.Name = "amir3";
+        users3.Family = "jelodarian3";
+        users3.NameFather = "ali3";
+        users3.Password = "amir00003";
+        users3.Gender = true;
+        users3.Birthday = DateTime.Parse("2002/01/01");
+        users3.Active = true;
+        users3.Weight = 120.9;
+        ListUsers.Add(users3);
+
+        var query = ListUsers.ToList();
+
+        /*string hi = "hello";
+        ViewBag.sayHi = hi;*/
+
+        double sumAllWeight = 0;
+        foreach(var item in query){
+            if (item.Weight.HasValue)
+            sumAllWeight += item.Weight.Value;
         }
 
-        while (true)
-        {
-            
-        }
-
-        do
-        {
-            
-        } while (true);
-
-        int n = 10;
-        int totalprice = default;
-        foreach (var item in n)
-        {
-            int sumitem = item.count + item.price;
-            totalprice += sumitem;
-        }
-
-
-
-
-
-        //show output with viewbag in ContactUs page
-
-        ViewBag.nfnc4 = namefnc4(10 , 20);
-
-        return View();
-
-        int a = 10;
-        string b ="in the name of god";
-        float c = 123.45f;
-        decimal d = 182.12312434m;
-        int e = default;
-        bool aa = default;
-
-        // ارور هندلینگ با try catch
-
-        try{
-
-            string bb = "123465758abbb";
-            int ab = int.Parse(bb);
-
-        }
-        catch(Exception ERR){
-
-            // return ERR.Message;
-        }
-
-       
-
+        return View(query);
     }
-
-    //Function in C#
-
-    void namefnc1(){
-        // Not input
-        int a = 1;
-        int b = 2;
-        string str = a+b.ToString(); 
-    }
-    void namefnc3(int a , int b){
-        // void but has input
-        String c = a + b.ToString() ;
-    }
-    string namefnc2(){
-        // Not input but has output
-        int a = 10;
-        int b = 20;
-        return (a + b).ToString() ;
-    }
-    string namefnc4(int a , int b){
-        //has input and has output
-        return (a + b).ToString();
-    }
-    // end second sesson
-
     public IActionResult Shop()
     {
-        return View();
+        List<Products> ListProducts = new List<Products>();
+
+        Products product1 = new Products();
+        product1.Id = 1;
+        product1.picPath = "/Images/1.webp";
+        product1.title = "Iphone 13";
+        product1.price = "10 tomn";
+        product1.count = "3";
+        product1.description = "آیفون 1";
+        ListProducts.Add(product1);
+
+        Products product2 = new Products();
+        product2.Id = 2;
+        product2.picPath = "/Images/2.jpg";
+        product2.title = "Iphone 14";
+        product2.price = "14 tomn";
+        product2.count = "2";
+        product2.description = "آیفون 2";
+        ListProducts.Add(product2);
+
+        Products product3 = new Products();
+        product3.Id = 3;
+        product3.picPath = "/Images/3.jpg";
+        product3.title = "Iphone 13";
+        product3.price = "30 tomn";
+        product3.count = "6";
+        product3.description = "آیفون 3";
+        ListProducts.Add(product3);
+
+        var query = ListProducts.ToList();
+
+        return View(query);
+
     }
 
     public IActionResult AboutUs()
