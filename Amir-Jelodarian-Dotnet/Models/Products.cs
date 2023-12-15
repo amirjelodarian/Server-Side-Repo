@@ -8,19 +8,19 @@ namespace Amir_Jelodarian_Dotnet.Models
 {
     public class Products
     {
-        [Key]
         [Required]
+        [Key]
         public int Id {get;set;}
         [Required]
         [StringLength(255)]
         public string picPath {get;set;}
         [Required]
         [StringLength(255)]
-        public string title {get;set;}
+        public string? title {get;set;}
         [StringLength(255)]
-        public string price {get;set;}
+        public string? price {get;set;}
         [StringLength(255)]
-        public string count {get;set;}
+        public string? count {get;set;}
         [StringLength(255)]
         public string? description {get;set;}
     }
