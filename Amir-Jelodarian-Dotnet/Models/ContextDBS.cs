@@ -6,9 +6,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Amir_Jelodarian_Dotnet.Models
 {
-    public class Context:DbContext
+    public class ContextDBS:DbContext
     {
-        public Context(DbContextOptions<Context> options):base(options)
+        public ContextDBS(DbContextOptions<ContextDBS> options):base(options)
         {
 
         }
