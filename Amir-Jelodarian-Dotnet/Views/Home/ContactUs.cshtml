@@ -2,22 +2,28 @@
 @{
     ViewData["Title"] = "ContactUs";
 }
-<form action="" method="">
-
+<form asp-controller="Home" asp-action="SaveUser" method="post">
+    <input type="text" placeholder="نام" name="Name" />
+    <input type="email" placeholder="ایمیل" name="Email" />
+    <input type="date" placeholder="تولد" name="Birthday" />
+    <input type="password" placeholder="رمز" name="Password" />
+    <input type="submit" class="btn btn-primary" value="ذخیره" />
 </form>
 <table class="table table-responsive">
 <h5>Count Of Users: @ViewBag.countUser</h5>
             <tr>
                 <th>Id</th>
                 <th>Name</th>
-                <th>email</th>
+                <th>Email</th>
+                <th>Birthday</th>
                 <th>Password</th>
             </tr>
             @foreach(var item in Model){
                     <tr>
                         <td>@item.Id</td>
                         <td>@item.Name</td>
-                        <td>@item.email</td>
+                        <td>@item.Email</td>
+                        <td>@item.Birthday</td>
                         <td>@item.Password</td>
                     </tr>
                 

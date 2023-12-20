@@ -21,18 +21,13 @@ public class HomeController : Controller
         return View();
     }
 
-    public void saveUser(Users user){
-        Users user = new Users();
-        user.Name = "amir";
-        user.email = "amirjelodarian@gmail.com";
-        user.Password = "123";
+    public IActionResult SaveUser(Users user){
         db.Users.Add(user);
         db.SaveChanges();
-
-        db.Users.Add(user);
-        db.SaveChanges();
+        return RedirectToAction("ContactUs");
     }
-      public IActionResult ContactUs()
+
+    public IActionResult ContactUs()
     {
 
         var query = db.Users.ToList().OrderByDescending(user => user.Id);

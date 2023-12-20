@@ -15,11 +15,15 @@ namespace Amir_Jelodarian_Dotnet.Models
         public string? Name {get;set;}
 
         [StringLength(255)]
-        public string email {get;set;}
+        public string Email {get;set;}
         
         [StringLength(255)]
         [Required]
         public string Password {get;set;}
+
+        [StringLength(255)]
+        [Required]
+        public string Birthday {get;set;}
 
 
     }
