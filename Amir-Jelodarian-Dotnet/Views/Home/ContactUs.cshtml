@@ -1,27 +1,28 @@
+@model IEnumerable<Users>
 @{
     ViewData["Title"] = "ContactUs";
 }
+<form action="" method="">
+
+</form>
 <table class="table table-responsive">
+<h5>Count Of Users: @ViewBag.countUser</h5>
             <tr>
                 <th>Id</th>
                 <th>Name</th>
-                <th>Family</th>
-                <th>Gender</th>
-                <th>Birthday</th>
+                <th>email</th>
+                <th>Password</th>
             </tr>
-            @{
-                foreach(var item in Model){
+            @foreach(var item in Model){
                     <tr>
                         <td>@item.Id</td>
                         <td>@item.Name</td>
-                        <td>@item.Family</td>
-                        <td>@item.Gender</td>
-                        <td>@item.Birthday</td>
+                        <td>@item.email</td>
+                        <td>@item.Password</td>
                     </tr>
-                }
+                
             }
 </table>
 <h1>تماس به ما</h1>
 <p>09191234567</p>
 
-<h2>@ViewBag.sayHi</h2>

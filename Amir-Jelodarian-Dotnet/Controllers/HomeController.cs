@@ -7,10 +7,12 @@ namespace Amir_Jelodarian_Dotnet.Controllers;
 
 public class HomeController : Controller
 {
+    private readonly ContextDBS db;
     private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger, ContextDBS contextDBS)
     {
+        db = contextDBS;
         _logger = logger;
     }
 
@@ -19,57 +21,29 @@ public class HomeController : Controller
         return View();
     }
 
-    // start second sesson
-  public IActionResult ContactUs()
+    public void saveUser(Users user){
+        Users user = new Users();
+        user.Name = "amir";
+        user.email = "amirjelodarian@gmail.com";
+        user.Password = "123";
+        db.Users.Add(user);
+        db.SaveChanges();
+
+        db.Users.Add(user);
+        db.SaveChanges();
+    }
+      public IActionResult ContactUs()
     {
-        List<Users> ListUsers = new List<Users>();
 
-        Users users1 = new Users();
-        users1.Id = 1;
-        users1.Name = "amir";
-        users1.Family = "jelodarian";
-        users1.NameFather = "ali";
-        users1.Password = "amir0000";
-        users1.Gender = true;
-        users1.Birthday = DateTime.Parse("2002/01/01");
-        users1.Active = true;
-        users1.Weight = 50.2;
-        ListUsers.Add(users1);
+        var query = db.Users.ToList().OrderByDescending(user => user.Id);
 
-        Users users2 = new Users();
-        users2.Id = 2;
-        users2.Name = "amir2";
-        users2.Family = "jelodarian2";
-        users2.NameFather = "ali2";
-        users2.Password = "amir00002";
-        users2.Gender = true;
-        users2.Birthday = DateTime.Parse("2002/01/01");
-        users2.Active = false;
-        users2.Weight = 120.4;
-        ListUsers.Add(users2);
+        ViewBag.countUser = db.Users.ToList().Count;
 
-        Users users3 = new Users();
-        users3.Id = 3;
-        users3.Name = "amir3";
-        users3.Family = "jelodarian3";
-        users3.NameFather = "ali3";
-        users3.Password = "amir00003";
-        users3.Gender = true;
-        users3.Birthday = DateTime.Parse("2002/01/01");
-        users3.Active = true;
-        users3.Weight = 120.9;
-        ListUsers.Add(users3);
-
-        var query = ListUsers.ToList();
-
-        /*string hi = "hello";
-        ViewBag.sayHi = hi;*/
-
-        double sumAllWeight = 0;
-        foreach(var item in query){
-            if (item.Weight.HasValue)
-            sumAllWeight += item.Weight.Value;
-        }
+        // double sumAllWeight = 0;
+        // foreach(var item in query){
+        //     if (item.Weight.HasValue)
+        //     sumAllWeight += item.Weight.Value;
+        // }
 
         return View(query);
     }

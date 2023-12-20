@@ -1,5 +1,5 @@
 
-using System.Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace Amir_Jelodarian_Dotnet.Models
 {
@@ -9,6 +9,9 @@ namespace Amir_Jelodarian_Dotnet.Models
         {
 
         }
-        public DbSet<Users> Userss { get; set; }
+        public DbSet<Users> Users { get; set; }
+        public DbSet<Products> Products { get; set; }
+        public DbSet<Contact> Cantact { get; set; }
+        public DbSet<Order> Order { get; set; }
     }
 }
