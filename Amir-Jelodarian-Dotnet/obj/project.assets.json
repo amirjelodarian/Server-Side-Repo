@@ -75,6 +75,19 @@
           "build/_._": {}
         }
       },
+      "DNTPersianUtils.Core/5.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/DNTPersianUtils.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/DNTPersianUtils.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -84,6 +97,32 @@
         },
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MD.PersianDateTime/4.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/MD.PersianDateTime.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net20/MD.PersianDateTime.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "MD.PersianDateTime.Standard/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MD.PersianDateTime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MD.PersianDateTime.Standard.dll": {
             "related": ".xml"
           }
         }
@@ -795,6 +834,19 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "PersianDateTime.Core/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PersianDateTime.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/PersianDateTime.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -1357,6 +1409,33 @@
         "tool/sassc.exe"
       ]
     },
+    "DNTPersianUtils.Core/5.8.1": {
+      "sha512": "ogLiBlfU8DTTSBaPku/Fyv/ml8DtX7OWCXeEYUFTu8J/wvK4xW94qLktRrvQr6G8RuQ1tar0D6eGJ5Bc9b1ujg==",
+      "type": "package",
+      "path": "dntpersianutils.core/5.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dntpersianutils.core.5.8.1.nupkg.sha512",
+        "dntpersianutils.core.nuspec",
+        "lib/net46/DNTPersianUtils.Core.dll",
+        "lib/net46/DNTPersianUtils.Core.xml",
+        "lib/net5.0/DNTPersianUtils.Core.dll",
+        "lib/net5.0/DNTPersianUtils.Core.xml",
+        "lib/net6.0/DNTPersianUtils.Core.dll",
+        "lib/net6.0/DNTPersianUtils.Core.xml",
+        "lib/net7.0/DNTPersianUtils.Core.dll",
+        "lib/net7.0/DNTPersianUtils.Core.xml",
+        "lib/net8.0/DNTPersianUtils.Core.dll",
+        "lib/net8.0/DNTPersianUtils.Core.xml",
+        "lib/netstandard1.3/DNTPersianUtils.Core.dll",
+        "lib/netstandard1.3/DNTPersianUtils.Core.xml",
+        "lib/netstandard2.0/DNTPersianUtils.Core.dll",
+        "lib/netstandard2.0/DNTPersianUtils.Core.xml",
+        "lib/netstandard2.1/DNTPersianUtils.Core.dll",
+        "lib/netstandard2.1/DNTPersianUtils.Core.xml"
+      ]
+    },
     "Humanizer.Core/2.14.1": {
       "sha512": "lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "type": "package",
@@ -1373,6 +1452,35 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "MD.PersianDateTime/4.5.0": {
+      "sha512": "o91rSaTxIwi7UtwoNM4P+BZrEpWEFpVxGqeg5B4WM/DwuELWLD8gpq8P/5oyUN+uFBIu7fuOFyN9msjtrwgwLA==",
+      "type": "package",
+      "path": "md.persiandatetime/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "PersianDateTimePng.png",
+        "lib/net20/MD.PersianDateTime.XML",
+        "lib/net20/MD.PersianDateTime.dll",
+        "lib/net20/MD.PersianDateTime.pdb",
+        "md.persiandatetime.4.5.0.nupkg.sha512",
+        "md.persiandatetime.nuspec"
+      ]
+    },
+    "MD.PersianDateTime.Standard/2.5.0": {
+      "sha512": "xEhLsSr4reHEv5AC3fIgdJbAJBXxsX9YMvQAZeR8lMmzXZZiob1Bd4K2YKkjKgPYX5agOkJV/B+lwp0pPiDYPA==",
+      "type": "package",
+      "path": "md.persiandatetime.standard/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "PersianDateTimePng.png",
+        "lib/netstandard2.0/MD.PersianDateTime.Standard.dll",
+        "lib/netstandard2.0/MD.PersianDateTime.Standard.xml",
+        "md.persiandatetime.standard.2.5.0.nupkg.sha512",
+        "md.persiandatetime.standard.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authorization/5.0.0": {
@@ -2400,6 +2508,19 @@
         "lib/netstandard2.0/Mono.TextTemplating.dll",
         "mono.texttemplating.2.2.1.nupkg.sha512",
         "mono.texttemplating.nuspec"
+      ]
+    },
+    "PersianDateTime.Core/2.0.5": {
+      "sha512": "jZToOx++M7s0BA3kG3kDn8S15zof139Td8ISza0c6Q11bSs14rmpcXE/TA4agWjYMYnoCnevE7b8Ru5nFPMziA==",
+      "type": "package",
+      "path": "persiandatetime.core/2.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/PersianDateTime.Core.dll",
+        "lib/netstandard2.0/PersianDateTime.Core.xml",
+        "persiandatetime.core.2.0.5.nupkg.sha512",
+        "persiandatetime.core.nuspec"
       ]
     },
     "System.Buffers/4.5.1": {
@@ -3771,10 +3892,14 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Blazor.PersianDatePicker >= 3.2.0",
+      "DNTPersianUtils.Core >= 5.8.1",
+      "MD.PersianDateTime >= 4.5.0",
+      "MD.PersianDateTime.Standard >= 2.5.0",
       "Microsoft.EntityFrameworkCore >= 7.0.7",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.7",
-      "Microsoft.EntityFrameworkCore.tools >= 7.0.7"
+      "Microsoft.EntityFrameworkCore.tools >= 7.0.7",
+      "PersianDateTime.Core >= 2.0.5"
     ]
   },
   "packageFolders": {
@@ -3820,6 +3945,18 @@
             "target": "Package",
             "version": "[3.2.0, )"
           },
+          "DNTPersianUtils.Core": {
+            "target": "Package",
+            "version": "[5.8.1, )"
+          },
+          "MD.PersianDateTime": {
+            "target": "Package",
+            "version": "[4.5.0, )"
+          },
+          "MD.PersianDateTime.Standard": {
+            "target": "Package",
+            "version": "[2.5.0, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.7, )"
@@ -3839,6 +3976,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.7, )"
+          },
+          "PersianDateTime.Core": {
+            "target": "Package",
+            "version": "[2.0.5, )"
           }
         },
         "imports": [
@@ -3863,5 +4004,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MD.PersianDateTime 4.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MD.PersianDateTime",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

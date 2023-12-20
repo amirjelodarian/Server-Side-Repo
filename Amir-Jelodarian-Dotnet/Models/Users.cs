@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using DNTPersianUtils.Core;
+using MD.PersianDateTime;
 
 namespace Amir_Jelodarian_Dotnet.Models
 {
     public class Users
     {
+        private string birthday;
         [Required]
         [Key]
         public int Id {get;set;}
@@ -23,7 +26,15 @@ namespace Amir_Jelodarian_Dotnet.Models
 
         [StringLength(255)]
         [Required]
-        public string Birthday {get;set;}
+        public string Birthday {
+            get{
+                var date = birthday.ToGregorianDateOnly();
+                return date.ToString();
+            }
+            set{
+                birthday = value;
+            }
+        }
 
 
     }

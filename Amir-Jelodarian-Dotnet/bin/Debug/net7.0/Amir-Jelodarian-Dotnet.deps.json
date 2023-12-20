@@ -9,10 +9,14 @@
       "Amir-Jelodarian-Dotnet/1.0.0": {
         "dependencies": {
           "Blazor.PersianDatePicker": "3.2.0",
+          "DNTPersianUtils.Core": "5.8.1",
+          "MD.PersianDateTime": "4.5.0",
+          "MD.PersianDateTime.Standard": "2.5.0",
           "Microsoft.EntityFrameworkCore": "7.0.7",
           "Microsoft.EntityFrameworkCore.Design": "7.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.7",
-          "Microsoft.EntityFrameworkCore.Tools": "7.0.7"
+          "Microsoft.EntityFrameworkCore.Tools": "7.0.7",
+          "PersianDateTime.Core": "2.0.5"
         },
         "runtime": {
           "Amir-Jelodarian-Dotnet.dll": {}
@@ -65,11 +69,35 @@
         }
       },
       "Delegate.SassBuilder/1.4.0": {},
+      "DNTPersianUtils.Core/5.8.1": {
+        "runtime": {
+          "lib/net7.0/DNTPersianUtils.Core.dll": {
+            "assemblyVersion": "5.8.1.0",
+            "fileVersion": "5.8.1.0"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "MD.PersianDateTime/4.5.0": {
+        "runtime": {
+          "lib/net20/MD.PersianDateTime.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.5.0.0"
+          }
+        }
+      },
+      "MD.PersianDateTime.Standard/2.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/MD.PersianDateTime.Standard.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.0.0"
           }
         }
       },
@@ -433,6 +461,14 @@
           }
         }
       },
+      "PersianDateTime.Core/2.0.5": {
+        "runtime": {
+          "lib/netstandard2.0/PersianDateTime.Core.dll": {
+            "assemblyVersion": "2.0.5.0",
+            "fileVersion": "2.0.5.0"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {},
       "System.CodeDom/4.4.0": {
         "runtime": {
@@ -695,12 +731,33 @@
       "path": "delegate.sassbuilder/1.4.0",
       "hashPath": "delegate.sassbuilder.1.4.0.nupkg.sha512"
     },
+    "DNTPersianUtils.Core/5.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ogLiBlfU8DTTSBaPku/Fyv/ml8DtX7OWCXeEYUFTu8J/wvK4xW94qLktRrvQr6G8RuQ1tar0D6eGJ5Bc9b1ujg==",
+      "path": "dntpersianutils.core/5.8.1",
+      "hashPath": "dntpersianutils.core.5.8.1.nupkg.sha512"
+    },
     "Humanizer.Core/2.14.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "MD.PersianDateTime/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o91rSaTxIwi7UtwoNM4P+BZrEpWEFpVxGqeg5B4WM/DwuELWLD8gpq8P/5oyUN+uFBIu7fuOFyN9msjtrwgwLA==",
+      "path": "md.persiandatetime/4.5.0",
+      "hashPath": "md.persiandatetime.4.5.0.nupkg.sha512"
+    },
+    "MD.PersianDateTime.Standard/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xEhLsSr4reHEv5AC3fIgdJbAJBXxsX9YMvQAZeR8lMmzXZZiob1Bd4K2YKkjKgPYX5agOkJV/B+lwp0pPiDYPA==",
+      "path": "md.persiandatetime.standard/2.5.0",
+      "hashPath": "md.persiandatetime.standard.2.5.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/5.0.0": {
       "type": "package",
@@ -995,6 +1052,13 @@
       "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "PersianDateTime.Core/2.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jZToOx++M7s0BA3kG3kDn8S15zof139Td8ISza0c6Q11bSs14rmpcXE/TA4agWjYMYnoCnevE7b8Ru5nFPMziA==",
+      "path": "persiandatetime.core/2.0.5",
+      "hashPath": "persiandatetime.core.2.0.5.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",

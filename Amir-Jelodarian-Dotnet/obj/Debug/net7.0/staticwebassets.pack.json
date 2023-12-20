@@ -33,82 +33,6 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\.gitattributes",
-      "PackagePath": "staticwebassets\\lib\\PersianCalender\\.gitattributes"
-    },
-    {
-      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\.gitignore",
-      "PackagePath": "staticwebassets\\lib\\PersianCalender\\.gitignore"
-    },
-    {
-      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\.jshintrc",
-      "PackagePath": "staticwebassets\\lib\\PersianCalender\\.jshintrc"
-    },
-    {
-      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\README.md",
-      "PackagePath": "staticwebassets\\lib\\PersianCalender\\README.md"
-    },
-    {
-      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\demo\\RangeSelector.html",
-      "PackagePath": "staticwebassets\\lib\\PersianCalender\\demo\\RangeSelector.html"
-    },
-    {
-      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\demo\\Samples1.html",
-      "PackagePath": "staticwebassets\\lib\\PersianCalender\\demo\\Samples1.html"
-    },
-    {
-      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\demo\\SamplesModal.html",
-      "PackagePath": "staticwebassets\\lib\\PersianCalender\\demo\\SamplesModal.html"
-    },
-    {
-      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\demo\\SamplesToDebug.html",
-      "PackagePath": "staticwebassets\\lib\\PersianCalender\\demo\\SamplesToDebug.html"
-    },
-    {
-      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\demo\\demo.css",
-      "PackagePath": "staticwebassets\\lib\\PersianCalender\\demo\\demo.css"
-    },
-    {
-      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\dist\\jquery.md.bootstrap.datetimepicker.js",
-      "PackagePath": "staticwebassets\\lib\\PersianCalender\\dist\\jquery.md.bootstrap.datetimepicker.js"
-    },
-    {
-      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\dist\\jquery.md.bootstrap.datetimepicker.js.map",
-      "PackagePath": "staticwebassets\\lib\\PersianCalender\\dist\\jquery.md.bootstrap.datetimepicker.js.map"
-    },
-    {
-      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\dist\\jquery.md.bootstrap.datetimepicker.style.css",
-      "PackagePath": "staticwebassets\\lib\\PersianCalender\\dist\\jquery.md.bootstrap.datetimepicker.style.css"
-    },
-    {
-      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\dist\\jquery.md.bootstrap.datetimepicker.style.css.map",
-      "PackagePath": "staticwebassets\\lib\\PersianCalender\\dist\\jquery.md.bootstrap.datetimepicker.style.css.map"
-    },
-    {
-      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\package.json",
-      "PackagePath": "staticwebassets\\lib\\PersianCalender\\package.json"
-    },
-    {
-      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\src\\MdPersianDateTimePicker.jpg",
-      "PackagePath": "staticwebassets\\lib\\PersianCalender\\src\\MdPersianDateTimePicker.jpg"
-    },
-    {
-      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\src\\MdPersianDateTimePickerModalMode.jpg",
-      "PackagePath": "staticwebassets\\lib\\PersianCalender\\src\\MdPersianDateTimePickerModalMode.jpg"
-    },
-    {
-      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\src\\jquery.md.bootstrap.datetimepicker.js",
-      "PackagePath": "staticwebassets\\lib\\PersianCalender\\src\\jquery.md.bootstrap.datetimepicker.js"
-    },
-    {
-      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\src\\jquery.md.bootstrap.datetimepicker.style.css",
-      "PackagePath": "staticwebassets\\lib\\PersianCalender\\src\\jquery.md.bootstrap.datetimepicker.style.css"
-    },
-    {
-      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\webpack.config.js",
-      "PackagePath": "staticwebassets\\lib\\PersianCalender\\webpack.config.js"
-    },
-    {
       "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
@@ -335,6 +259,62 @@
     {
       "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\.gitignore",
+      "PackagePath": "staticwebassets\\lib\\mpdatepicker\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\Gruntfile.js",
+      "PackagePath": "staticwebassets\\lib\\mpdatepicker\\Gruntfile.js"
+    },
+    {
+      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\mpdatepicker"
+    },
+    {
+      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\README.md",
+      "PackagePath": "staticwebassets\\lib\\mpdatepicker\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\dist\\jquery.mpdatepicker.min.css",
+      "PackagePath": "staticwebassets\\lib\\mpdatepicker\\dist\\jquery.mpdatepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\dist\\jquery.mpdatepicker.min.js",
+      "PackagePath": "staticwebassets\\lib\\mpdatepicker\\dist\\jquery.mpdatepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\example\\index.html",
+      "PackagePath": "staticwebassets\\lib\\mpdatepicker\\example\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\example\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\mpdatepicker\\example\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\example\\static-calendar.html",
+      "PackagePath": "staticwebassets\\lib\\mpdatepicker\\example\\static-calendar.html"
+    },
+    {
+      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\module\\index.js",
+      "PackagePath": "staticwebassets\\lib\\mpdatepicker\\module\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\package.json",
+      "PackagePath": "staticwebassets\\lib\\mpdatepicker\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\screenshot.png",
+      "PackagePath": "staticwebassets\\lib\\mpdatepicker\\screenshot.png"
+    },
+    {
+      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\src\\jquery.mpdatepicker.css",
+      "PackagePath": "staticwebassets\\lib\\mpdatepicker\\src\\jquery.mpdatepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\src\\jquery.mpdatepicker.js",
+      "PackagePath": "staticwebassets\\lib\\mpdatepicker\\src\\jquery.mpdatepicker.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Amir-Jelodarian-Dotnet.Microsoft.AspNetCore.StaticWebAssets.props",

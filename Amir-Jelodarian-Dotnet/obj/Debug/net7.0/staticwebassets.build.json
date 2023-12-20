@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Q69HNC9+YsbjW2wQhPrHs3DN9wZCI3uQjr4TNIv+RII=",
+  "Hash": "ocOEyWcboVsoycwacrn0CawSmZfDAgzEBomONO3i0y8=",
   "Source": "Amir-Jelodarian-Dotnet",
   "BasePath": "_content/Amir-Jelodarian-Dotnet",
   "Mode": "Default",
@@ -1207,12 +1207,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\.gitattributes",
+      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\.gitignore",
       "SourceId": "Amir-Jelodarian-Dotnet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\",
       "BasePath": "_content/Amir-Jelodarian-Dotnet",
-      "RelativePath": "lib/PersianCalender/.gitattributes",
+      "RelativePath": "lib/mpdatepicker/.gitignore",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1221,15 +1221,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\PersianCalender\\.gitattributes"
+      "OriginalItemSpec": "wwwroot\\lib\\mpdatepicker\\.gitignore"
     },
     {
-      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\.gitignore",
+      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\dist\\jquery.mpdatepicker.min.css",
       "SourceId": "Amir-Jelodarian-Dotnet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\",
       "BasePath": "_content/Amir-Jelodarian-Dotnet",
-      "RelativePath": "lib/PersianCalender/.gitignore",
+      "RelativePath": "lib/mpdatepicker/dist/jquery.mpdatepicker.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1238,15 +1238,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\PersianCalender\\.gitignore"
+      "OriginalItemSpec": "wwwroot\\lib\\mpdatepicker\\dist\\jquery.mpdatepicker.min.css"
     },
     {
-      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\.jshintrc",
+      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\dist\\jquery.mpdatepicker.min.js",
       "SourceId": "Amir-Jelodarian-Dotnet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\",
       "BasePath": "_content/Amir-Jelodarian-Dotnet",
-      "RelativePath": "lib/PersianCalender/.jshintrc",
+      "RelativePath": "lib/mpdatepicker/dist/jquery.mpdatepicker.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1255,15 +1255,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\PersianCalender\\.jshintrc"
+      "OriginalItemSpec": "wwwroot\\lib\\mpdatepicker\\dist\\jquery.mpdatepicker.min.js"
     },
     {
-      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\demo\\demo.css",
+      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\example\\index.html",
       "SourceId": "Amir-Jelodarian-Dotnet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\",
       "BasePath": "_content/Amir-Jelodarian-Dotnet",
-      "RelativePath": "lib/PersianCalender/demo/demo.css",
+      "RelativePath": "lib/mpdatepicker/example/index.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1272,15 +1272,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\PersianCalender\\demo\\demo.css"
+      "OriginalItemSpec": "wwwroot\\lib\\mpdatepicker\\example\\index.html"
     },
     {
-      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\demo\\RangeSelector.html",
+      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\example\\jquery.min.js",
       "SourceId": "Amir-Jelodarian-Dotnet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\",
       "BasePath": "_content/Amir-Jelodarian-Dotnet",
-      "RelativePath": "lib/PersianCalender/demo/RangeSelector.html",
+      "RelativePath": "lib/mpdatepicker/example/jquery.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1289,15 +1289,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\PersianCalender\\demo\\RangeSelector.html"
+      "OriginalItemSpec": "wwwroot\\lib\\mpdatepicker\\example\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\demo\\Samples1.html",
+      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\example\\static-calendar.html",
       "SourceId": "Amir-Jelodarian-Dotnet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\",
       "BasePath": "_content/Amir-Jelodarian-Dotnet",
-      "RelativePath": "lib/PersianCalender/demo/Samples1.html",
+      "RelativePath": "lib/mpdatepicker/example/static-calendar.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1306,15 +1306,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\PersianCalender\\demo\\Samples1.html"
+      "OriginalItemSpec": "wwwroot\\lib\\mpdatepicker\\example\\static-calendar.html"
     },
     {
-      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\demo\\SamplesModal.html",
+      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\Gruntfile.js",
       "SourceId": "Amir-Jelodarian-Dotnet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\",
       "BasePath": "_content/Amir-Jelodarian-Dotnet",
-      "RelativePath": "lib/PersianCalender/demo/SamplesModal.html",
+      "RelativePath": "lib/mpdatepicker/Gruntfile.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1323,15 +1323,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\PersianCalender\\demo\\SamplesModal.html"
+      "OriginalItemSpec": "wwwroot\\lib\\mpdatepicker\\Gruntfile.js"
     },
     {
-      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\demo\\SamplesToDebug.html",
+      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\LICENSE",
       "SourceId": "Amir-Jelodarian-Dotnet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\",
       "BasePath": "_content/Amir-Jelodarian-Dotnet",
-      "RelativePath": "lib/PersianCalender/demo/SamplesToDebug.html",
+      "RelativePath": "lib/mpdatepicker/LICENSE",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1340,15 +1340,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\PersianCalender\\demo\\SamplesToDebug.html"
+      "OriginalItemSpec": "wwwroot\\lib\\mpdatepicker\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\dist\\jquery.md.bootstrap.datetimepicker.js",
+      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\module\\index.js",
       "SourceId": "Amir-Jelodarian-Dotnet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\",
       "BasePath": "_content/Amir-Jelodarian-Dotnet",
-      "RelativePath": "lib/PersianCalender/dist/jquery.md.bootstrap.datetimepicker.js",
+      "RelativePath": "lib/mpdatepicker/module/index.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1357,15 +1357,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\PersianCalender\\dist\\jquery.md.bootstrap.datetimepicker.js"
+      "OriginalItemSpec": "wwwroot\\lib\\mpdatepicker\\module\\index.js"
     },
     {
-      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\dist\\jquery.md.bootstrap.datetimepicker.js.map",
+      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\package.json",
       "SourceId": "Amir-Jelodarian-Dotnet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\",
       "BasePath": "_content/Amir-Jelodarian-Dotnet",
-      "RelativePath": "lib/PersianCalender/dist/jquery.md.bootstrap.datetimepicker.js.map",
+      "RelativePath": "lib/mpdatepicker/package.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1374,15 +1374,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\PersianCalender\\dist\\jquery.md.bootstrap.datetimepicker.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\mpdatepicker\\package.json"
     },
     {
-      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\dist\\jquery.md.bootstrap.datetimepicker.style.css",
+      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\README.md",
       "SourceId": "Amir-Jelodarian-Dotnet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\",
       "BasePath": "_content/Amir-Jelodarian-Dotnet",
-      "RelativePath": "lib/PersianCalender/dist/jquery.md.bootstrap.datetimepicker.style.css",
+      "RelativePath": "lib/mpdatepicker/README.md",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1391,15 +1391,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\PersianCalender\\dist\\jquery.md.bootstrap.datetimepicker.style.css"
+      "OriginalItemSpec": "wwwroot\\lib\\mpdatepicker\\README.md"
     },
     {
-      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\dist\\jquery.md.bootstrap.datetimepicker.style.css.map",
+      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\screenshot.png",
       "SourceId": "Amir-Jelodarian-Dotnet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\",
       "BasePath": "_content/Amir-Jelodarian-Dotnet",
-      "RelativePath": "lib/PersianCalender/dist/jquery.md.bootstrap.datetimepicker.style.css.map",
+      "RelativePath": "lib/mpdatepicker/screenshot.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1408,15 +1408,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\PersianCalender\\dist\\jquery.md.bootstrap.datetimepicker.style.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\mpdatepicker\\screenshot.png"
     },
     {
-      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\package.json",
+      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\src\\jquery.mpdatepicker.css",
       "SourceId": "Amir-Jelodarian-Dotnet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\",
       "BasePath": "_content/Amir-Jelodarian-Dotnet",
-      "RelativePath": "lib/PersianCalender/package.json",
+      "RelativePath": "lib/mpdatepicker/src/jquery.mpdatepicker.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1425,15 +1425,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\PersianCalender\\package.json"
+      "OriginalItemSpec": "wwwroot\\lib\\mpdatepicker\\src\\jquery.mpdatepicker.css"
     },
     {
-      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\README.md",
+      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\mpdatepicker\\src\\jquery.mpdatepicker.js",
       "SourceId": "Amir-Jelodarian-Dotnet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\",
       "BasePath": "_content/Amir-Jelodarian-Dotnet",
-      "RelativePath": "lib/PersianCalender/README.md",
+      "RelativePath": "lib/mpdatepicker/src/jquery.mpdatepicker.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1442,92 +1442,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\PersianCalender\\README.md"
-    },
-    {
-      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\src\\jquery.md.bootstrap.datetimepicker.js",
-      "SourceId": "Amir-Jelodarian-Dotnet",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\",
-      "BasePath": "_content/Amir-Jelodarian-Dotnet",
-      "RelativePath": "lib/PersianCalender/src/jquery.md.bootstrap.datetimepicker.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\PersianCalender\\src\\jquery.md.bootstrap.datetimepicker.js"
-    },
-    {
-      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\src\\jquery.md.bootstrap.datetimepicker.style.css",
-      "SourceId": "Amir-Jelodarian-Dotnet",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\",
-      "BasePath": "_content/Amir-Jelodarian-Dotnet",
-      "RelativePath": "lib/PersianCalender/src/jquery.md.bootstrap.datetimepicker.style.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\PersianCalender\\src\\jquery.md.bootstrap.datetimepicker.style.css"
-    },
-    {
-      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\src\\MdPersianDateTimePicker.jpg",
-      "SourceId": "Amir-Jelodarian-Dotnet",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\",
-      "BasePath": "_content/Amir-Jelodarian-Dotnet",
-      "RelativePath": "lib/PersianCalender/src/MdPersianDateTimePicker.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\PersianCalender\\src\\MdPersianDateTimePicker.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\src\\MdPersianDateTimePickerModalMode.jpg",
-      "SourceId": "Amir-Jelodarian-Dotnet",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\",
-      "BasePath": "_content/Amir-Jelodarian-Dotnet",
-      "RelativePath": "lib/PersianCalender/src/MdPersianDateTimePickerModalMode.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\PersianCalender\\src\\MdPersianDateTimePickerModalMode.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\lib\\PersianCalender\\webpack.config.js",
-      "SourceId": "Amir-Jelodarian-Dotnet",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jj\\Desktop\\Server-Side-Repo\\Amir-Jelodarian-Dotnet\\wwwroot\\",
-      "BasePath": "_content/Amir-Jelodarian-Dotnet",
-      "RelativePath": "lib/PersianCalender/webpack.config.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\PersianCalender\\webpack.config.js"
+      "OriginalItemSpec": "wwwroot\\lib\\mpdatepicker\\src\\jquery.mpdatepicker.js"
     }
   ]
 }

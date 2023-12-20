@@ -4,11 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Amir Jelodarian</title>
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Amir_Jelodarian_Dotnet.styles.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/lib/PersianCalender/dist/jquery.md.bootstrap.datetimepicker.style.css" />
-    <script src="~/lib/PersianCalender/dist/jquery.md.bootstrap.datetimepicker.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"/> 
+    <link type="text/css" rel="stylesheet" href="~/lib/mpdatepicker/dist/jquery.mpdatepicker.min.css"/>
 </head>
 <body>
     <header> 
@@ -54,14 +56,28 @@
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    
-    <script>
-        $('#cal').MdPersianDateTimePicker({ 
-            targetTextSelector: '#inputTextDate1',
-            targetDateSelector: '#inputHiddenDate1',
-            });
-    </script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript" src="~/lib/mpdatepicker/dist/jquery.mpdatepicker.min.js"></script>
+    <script>
+        $(function () {
+            $(".sample-date-picker").mpdatepicker({
+                'timePicker': true,
+                onOpen: function () {
+                    console.log('open');
+                },
+                onSelect: function (selected) {
+                    console.log('select', selected);
+                },
+                onChange: function (oldVal, newVal) {
+                    console.log('change', oldVal, newVal);
+                },
+                onClose: function () {
+                    console.log('close');
+                },
+            });
+            
+        });
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

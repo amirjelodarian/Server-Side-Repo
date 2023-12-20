@@ -104,3 +104,7 @@ C:\Users\jj\Desktop\Server-Side-Repo\Amir-Jelodarian-Dotnet\bin\Debug\net7.0\run
 C:\Users\jj\Desktop\Server-Side-Repo\Amir-Jelodarian-Dotnet\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\jj\Desktop\Server-Side-Repo\Amir-Jelodarian-Dotnet\obj\Debug\net7.0\Amir-Jelodarian-Dotnet.csproj.CopyComplete
 C:\Users\jj\Desktop\Server-Side-Repo\Amir-Jelodarian-Dotnet\bin\Debug\net7.0\Blazor.PersianDatePicker.dll
+C:\Users\jj\Desktop\Server-Side-Repo\Amir-Jelodarian-Dotnet\bin\Debug\net7.0\PersianDateTime.Core.dll
+C:\Users\jj\Desktop\Server-Side-Repo\Amir-Jelodarian-Dotnet\bin\Debug\net7.0\MD.PersianDateTime.dll
+C:\Users\jj\Desktop\Server-Side-Repo\Amir-Jelodarian-Dotnet\bin\Debug\net7.0\MD.PersianDateTime.Standard.dll
+C:\Users\jj\Desktop\Server-Side-Repo\Amir-Jelodarian-Dotnet\bin\Debug\net7.0\DNTPersianUtils.Core.dll
