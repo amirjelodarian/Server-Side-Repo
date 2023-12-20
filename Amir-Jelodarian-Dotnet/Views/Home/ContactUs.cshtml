@@ -5,7 +5,8 @@
 <form asp-controller="Home" asp-action="SaveUser" method="post">
     <input type="text" placeholder="نام" name="Name" />
     <input type="email" placeholder="ایمیل" name="Email" />
-    <input type="date" placeholder="تولد" name="Birthday" />
+    <input type="date" id="cal" placeholder="تولد" name="Birthday" />
+    
     <input type="password" placeholder="رمز" name="Password" />
     <input type="submit" class="btn btn-primary" value="ذخیره" />
 </form>
