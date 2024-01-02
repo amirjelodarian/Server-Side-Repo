@@ -11,14 +11,5 @@ namespace Amir_Jelodarian_Dotnet.Models
         [Required]
         [Key]
         public int Id {get;set;}
-
-
-        [Required]
-        public int productId {get;set;}
-
-        [StringLength(255)]
-        public string count {get;set;}
-
-        
     }
 }

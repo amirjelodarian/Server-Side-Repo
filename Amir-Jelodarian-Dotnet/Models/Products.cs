@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Amir_Jelodarian_Dotnet.Models
 {
@@ -17,6 +18,8 @@ namespace Amir_Jelodarian_Dotnet.Models
         [StringLength(255)]
         public string picPath {get;set;}
 
+        [NotMapped]
+        public IFormFile pic { get; set; }
 
         [Required]
         [StringLength(255)]
@@ -34,5 +37,7 @@ namespace Amir_Jelodarian_Dotnet.Models
 
         [StringLength(255)]
         public string? description {get;set;}
+
+        public ICollection<Order> Orders { get; set; }
     }
 }
