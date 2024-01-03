@@ -15,9 +15,12 @@ namespace Amir_Jelodarian_Dotnet.Controllers
         private readonly ContextDBS db; 
         private readonly ILogger<ShoppingController> _logger;
 
-        public ShoppingController(ILogger<ShoppingController> logger, ContextDBS contextDBS)
+        private readonly IWebHostEnvironment webHostEnvironment;
+
+        public ShoppingController(ILogger<ShoppingController> logger, ContextDBS contextDBS, IWebHostEnvironment webHostEnvironment)
         {
             _logger = logger;
+            this.webHostEnvironment = webHostEnvironment;
             this.db = contextDBS;
         }
         [HttpGet("/Shopping")]
@@ -33,8 +36,14 @@ namespace Amir_Jelodarian_Dotnet.Controllers
         {
             return View("Error!");
         }
+        [HttpPost("/Shopping")]
         public IActionResult SaveForms(Products products){
             string UniqueFileName = Guid.NewGuid() + products.pic.FileName;
+            string UploadFolder = Path.Combine(webHostEnvironment.WebRootPath + "\\Images", UniqueFileName);
+            using (FileStream fs = new FileStream(UploadFolder, FileMode.Create)){
+                products.pic.CopyTo(fs);
+            };
+            products.picPath = "/Images/" + UniqueFileName;
             db.Products.Add(products);
             db.SaveChanges();
             return RedirectToAction("Index");
