@@ -33,10 +33,17 @@ body {
 }
 .create-product-form input{
   width: 130px;
-  height: 34px;
-  border: 1px solid red;
+  height: 34px;  
   border-radius: 7.2px;
   display: inline-block;
   margin: 10px;
   padding: 5px;
+}
+.file-form-input{
+  border: 0px solid none !important;
+  width: 150px !important;
+}
+.form-submit{
+  border: 0px solid none !important;
+  width: 70px !important;
 }
