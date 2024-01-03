@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Amir_Jelodarian_Dotnet.Migrations
 {
     [DbContext(typeof(ContextDBS))]
-    [Migration("20240102220949_Initial")]
+    [Migration("20240103140659_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -74,6 +74,10 @@ namespace Amir_Jelodarian_Dotnet.Migrations
                         .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("description")
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<string>("offPrice")
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 

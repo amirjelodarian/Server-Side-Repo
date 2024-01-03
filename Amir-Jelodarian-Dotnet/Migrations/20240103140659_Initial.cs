@@ -32,6 +32,7 @@ namespace Amir_Jelodarian_Dotnet.Migrations
                     picPath = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     title = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     price = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
+                    offPrice = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
                     count = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
                     description = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true)
                 },

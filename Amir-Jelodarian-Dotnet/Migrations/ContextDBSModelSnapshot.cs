@@ -74,6 +74,10 @@ namespace Amir_Jelodarian_Dotnet.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
+                    b.Property<string>("offPrice")
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
                     b.Property<string>("picPath")
                         .IsRequired()
                         .HasMaxLength(255)

@@ -29,6 +29,9 @@ namespace Amir_Jelodarian_Dotnet.Models
         [StringLength(255)]
         public string? price {get;set;}
 
+        [StringLength(255)]
+        public string? offPrice {get;set;}
+
 
         [StringLength(255)]
         public string? count {get;set;}

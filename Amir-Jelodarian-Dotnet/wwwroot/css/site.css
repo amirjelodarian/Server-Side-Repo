@@ -20,3 +20,23 @@ html {
 body {
   margin-bottom: 60px;
 }
+.create-product-form{
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 7.2px;
+}
+.create-product-form h6{
+  color: red;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+}
+.create-product-form input{
+  width: 130px;
+  height: 34px;
+  border: 1px solid red;
+  border-radius: 7.2px;
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+}
